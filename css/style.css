@@ -16,4 +16,10 @@ nav .row {
     height:500px ;
 }
 
-
+.red {
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
