@@ -23,3 +23,26 @@ nav .row {
     margin-bottom: 20px;
     margin-top: 60px;
 }
+
+.about {
+    height: 500px;
+    background-color: #43b18a;
+}
+
+.contact {
+    height: 500px;
+    background-color: rgb(236, 227, 227);
+}
+
+footer {
+    background-color: #2d425a;
+}
+
+.debug {
+    height: 300px;
+}
+
+.copyright {
+    height: 100px;
+    background-color: darkblue;
+}
