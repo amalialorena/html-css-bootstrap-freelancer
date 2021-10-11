@@ -4,11 +4,6 @@ nav {
     background-color: #222f3f;
 }
 
-nav .col, .col-md-4, .col-lg-3 
-.col-2, .col-md-3, .col-lg-3{
-    background-color: white;
-}
-
 nav .row {
     height: 50px;
 }
@@ -16,7 +11,9 @@ nav .row {
 
 /* Jumbo */
 
-.jumbotron{
-    height:300px ;
+.jumbotron {
     background-color: #43b18a;
+    height:500px ;
 }
+
+
