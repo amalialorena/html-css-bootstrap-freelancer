@@ -1,3 +1,8 @@
+/* General */
+ h2 {
+     text-align: center;
+ }
+
 /* Nav bar */
 
 nav {
@@ -25,7 +30,6 @@ nav {
 .title {
     color:white;
     font-size: 2rem;
-    /* font-size: 3rem; */
 }
 
 .star {
@@ -42,7 +46,7 @@ nav {
 }
 
 .star-line {
-    height: 3px;
+    height: 4px;
     width: 140px;
     background-color:white;
 }
@@ -64,7 +68,7 @@ nav {
  }
 
 
-/* MEDIA QUERY */
+/* MEDIA QUERY Jumbo */
 @media (min-width: 768px){
     .star {
         max-width: 270px;
@@ -91,15 +95,34 @@ nav {
 }
 
 /* Portfolio */
-
-.red {
-    height: 400px;
-    background-color: red;
-    border: 1px solid black;
+.my-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+.my-img {
     margin-bottom: 20px;
+    margin-top: 20px;
+} 
+
+.portfolio {
     margin-top: 60px;
 }
 
+.portfolio .star i {
+    color :black;
+}
+
+.portfolio .star-line {
+    background-color: black;
+}
+
+/* MEDIA QUERY Portfolio */
+@media (min-width: 768px) {
+    h2 {
+        font-size: 2.8rem;
+    }
+
+}
 
 
 /* About */
