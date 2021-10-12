@@ -2,19 +2,95 @@
 
 nav {
     background-color: #222f3f;
+    height: 100px;
 }
 
-nav .row {
-    height: 50px;
-}
 
 
 /* Jumbo */
 
 .jumbotron {
     background-color: #43b18a;
-    height:500px ;
 }
+
+.avatar img{
+    width: 100%;
+}
+
+.avatar {
+    max-width: 250px;
+    margin: 35px auto;
+}
+
+.title {
+    color:white;
+    font-size: 2rem;
+    /* font-size: 3rem; */
+}
+
+.star {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+    max-width: 150px;
+}
+.star i {
+    font-size: 28px;
+    color: white;
+    margin: 0 10px;
+}
+
+.star-line {
+    height: 3px;
+    width: 140px;
+    background-color:white;
+}
+
+.skills {
+    margin-bottom: 40px;
+}
+
+.skills ul{
+    padding: 0;
+}
+ .skills ul li {
+     display: inline-block;
+ }
+
+ .skills ul li a {
+     text-decoration: none;
+     color: white;
+ }
+
+
+/* MEDIA QUERY */
+@media (min-width: 768px){
+    .star {
+        max-width: 270px;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .skills ul li a {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width:992px){
+    .star {
+         max-width: 350px; 
+    }
+
+    .title {
+        font-size: 3.2rem;
+    }
+ 
+}
+
+/* Portfolio */
 
 .red {
     height: 400px;
@@ -24,16 +100,21 @@ nav .row {
     margin-top: 60px;
 }
 
+
+
+/* About */
 .about {
     height: 500px;
     background-color: #43b18a;
 }
-
+/* Contact */
 .contact {
     height: 500px;
     background-color: rgb(236, 227, 227);
 }
 
+
+/* Footer */
 footer {
     background-color: #2d425a;
 }
