@@ -3,6 +3,10 @@
      text-align: center;
  }
 
+ h4 {
+    text-align: center;
+ }
+
 /* Nav bar */
 
 nav {
@@ -148,6 +152,7 @@ nav {
 .my-btn {
     text-align: center;
 }
+
 button {
     color:white;
     background-color: #3fa577;
@@ -160,7 +165,6 @@ button {
 
 /* Contact */
 .contact {
-    height: 500px;
     background-color: rgb(236, 227, 227);
 }
 
@@ -181,11 +185,47 @@ footer {
     background-color: #2d425a;
 }
 
-.debug {
-    height: 300px;
-}
-
 .copyright {
     height: 100px;
     background-color: darkblue;
 }
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+footer h4 {
+    color:white;
+    margin-top: 40px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.my-icon-container i{
+    border-radius: 50%;
+    color: white;
+  
+    
+} 
+
+.social i { 
+    padding: 14px 11px;
+    font-size: 15px;
+}
+
+.my-icon-container {
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+   
+}
+
+
