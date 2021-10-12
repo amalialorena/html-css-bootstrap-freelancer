@@ -9,10 +9,13 @@
 
 /* Nav bar */
 
-nav {
-    background-color: #222f3f;
-    height: 100px;
+.navbar-collapse {
+    justify-content: flex-end;
 }
+.bg-dark {
+    background-color: #212f3f!important;
+}
+
 
 
 
@@ -165,15 +168,15 @@ button {
 
 /* Contact */
 
-.contact h2 {
+#contact h2 {
     margin-top: 70px;
 }
 
-.contact .star i {
+#contact .star i {
     color:black;
 }
 
-.contact .star-line {
+#contact .star-line {
    background-color:black;
 }
 
