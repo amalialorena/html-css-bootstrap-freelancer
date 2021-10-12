@@ -164,9 +164,6 @@ button {
 }
 
 /* Contact */
-.contact {
-    background-color: rgb(236, 227, 227);
-}
 
 .contact h2 {
     margin-top: 70px;
@@ -178,6 +175,20 @@ button {
 
 .contact .star-line {
    background-color:black;
+}
+
+/* Form */
+form input {
+    height: 55px;  
+}
+form textarea {
+    padding: 20px 0;
+}
+form input, textarea {
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #cacaca;
+    font-size: 20px;
 }
 
 /* Footer */
@@ -207,9 +218,7 @@ footer h4 {
 
 .my-icon-container i{
     border-radius: 50%;
-    color: white;
-  
-    
+    color: white;   
 } 
 
 .social i { 
