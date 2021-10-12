@@ -152,11 +152,11 @@
     margin-bottom: 20px;
 }
 
-.my-btn {
+.about .my-btn {
     text-align: center;
 }
 
-button {
+.my-btn button{
     color:white;
     background-color: #3fa577;
     border-radius: 10px;
