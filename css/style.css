@@ -106,6 +106,7 @@ nav {
 
 .portfolio {
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .portfolio .star i {
@@ -127,15 +128,53 @@ nav {
 
 /* About */
 .about {
-    height: 500px;
     background-color: #43b18a;
 }
+
+.about h2 {
+    color: white;
+    margin-top: 60px;
+}
+
+.about p {
+    color:white;
+    font-size: 1.2rem;
+}
+
+.about .star {
+    margin-bottom: 20px;
+}
+
+.my-btn {
+    text-align: center;
+}
+button {
+    color:white;
+    background-color: #3fa577;
+    border-radius: 10px;
+    border:1px solid white;
+    padding: 10px 20px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
 /* Contact */
 .contact {
     height: 500px;
     background-color: rgb(236, 227, 227);
 }
 
+.contact h2 {
+    margin-top: 70px;
+}
+
+.contact .star i {
+    color:black;
+}
+
+.contact .star-line {
+   background-color:black;
+}
 
 /* Footer */
 footer {
