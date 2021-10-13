@@ -102,11 +102,11 @@
 }
 
 /* Portfolio */
-.my-img img {
+.ms-img img {
     width: 100%;
     border-radius: 10px;
 }
-.my-img {
+.ms-img {
     margin-bottom: 20px;
     margin-top: 20px;
 } 
@@ -152,11 +152,11 @@
     margin-bottom: 20px;
 }
 
-.about .my-btn {
+.about .ms-btn {
     text-align: center;
 }
 
-.my-btn button{
+.ms-btn button{
     color:white;
     background-color: #3fa577;
     border-radius: 10px;
@@ -219,7 +219,7 @@ footer h4 {
     justify-content: center;
 }
 
-.my-icon-container i{
+.ms-icon-container i{
     border-radius: 50%;
     color: white;   
 } 
@@ -229,7 +229,7 @@ footer h4 {
     font-size: 15px;
 }
 
-.my-icon-container {
+.ms-icon-container {
     margin: 5px;
     border: 1px solid white;
     border-radius: 50%;
